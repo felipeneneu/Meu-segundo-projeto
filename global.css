@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --h1: #161A49;
+    --p: #4B505A;
+    --button: #6FBF44;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+
+}
+
+.nav{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--h1);
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.sign-up{
+    margin-left: 32px;
+    width: 124px;
+    height: 51px;
+    background: var(--button);
+    border-radius: 21px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.logo{
+width: 595.18px;
+height: 500px;
+display: inline-block;
+margin-left: 121px;
+margin-top: 179px;
+}
+
+.textos{
+    margin-left: 85px;
+    width: 582px;
+    display: inline-block;
+}
+
+h1{
+
+font-size: 62px;
+font-weight: 700;
+line-height: 82px;
+letter-spacing: 0.5961538553237915px;
+color: var(--h1);
+
+}
+
+p{
+margin-top: 47px;
+font-size: 18px;
+font-weight: 400;
+line-height: 33px;
+color: var(--p);
+
+}
+
+.learn{
+    padding-top: 55px;
+    color: var(--button);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    *{
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        margin: 50px 15%;
+        width: 100vh;
+        max-width: 800px;
+        padding: auto;
+        display: block;
+    
+    }
+
+    .logo{
+        width: auto;
+        height: auto;
+        display: block;
+        margin-bottom: 15%;
+        }
+
+        .textos{
+            margin: 0;
+            padding: 50px;
+            display: block;
+            width: 100vh;
+            max-width: 800px;
+        }
+    
+}
